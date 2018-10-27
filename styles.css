@@ -1,0 +1,96 @@
+html {
+  cursor: none;
+}
+* {
+  font-family: Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #333;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: rgb(255,222,79);
+background: linear-gradient(180deg, rgba(255,222,79,1) 0%, rgba(230,175,15,1) 100%);
+}
+
+h1 {
+  color: white;
+  font-style: italic;
+  text-shadow: 0 0 8px rgba(0,0,0,0.25);
+  text-align: center;
+}
+
+.slogan {
+  text-align: center;
+  font-style: italic;
+}
+
+.nav-main {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  background: #333;
+}
+.nav-main > li {
+  margin: 0;
+  display: inline-block;
+}
+.nav-main a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 10px;
+  transition: all 0.2s;
+}
+.nav-main a:hover {
+  background-color: white;
+  color: #333;
+}
+
+.content {
+  margin: 20px;
+}
+
+#cursor-bee {
+  position: absolute;
+  width: 30px;
+  top: 0px;
+  left: 0px;
+  z-index: 9999999;
+  pointer-events: none;
+}
+
+.bees {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+  padding: 0;
+}
+
+.bee {
+  width: calc(400px/2);
+  float: left;
+  position: relative;
+  padding: 10px;
+  
+}
+.bee > span {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px 20px;
+}
+.bee > img {
+  width: 100%;
+  border-radius: 100%;
+}
+
+footer {
+  padding-top: 20px;
+  clear: both;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 0.8em;
+}
